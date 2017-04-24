@@ -22,4 +22,9 @@ D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.pdb
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.xml
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\System.Data.SQLite.dll
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\System.Data.SQLite.pdb
-D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\SQLite.Interop.dll
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Vender.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.vbprojResolveAssemblyReference.cache
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Articulos.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Buscar.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Acceso.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\Placeholder.dll
