@@ -1,6 +1,8 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form1
+
     Inherits System.Windows.Forms.Form
+    'Inherits DevComponents.DotNetBar.Office2007RibbonForm
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -25,10 +27,33 @@ Partial Class Form1
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.VentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IngresarActualizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ActualizarPreciosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ActualizarInventarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SalidaDeProductoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AgregarModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultaDeComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultaDeSaldosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AbonoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AgregarModificarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.CajaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SaldoActualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IngresarEfectivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RetirarEfectivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VentasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VentasDelDíaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VentasEntreFechasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.DevolucionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FacturasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProductosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClientesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProvedoresToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CajaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.btnVentas = New DevComponents.DotNetBar.ButtonItem()
@@ -52,33 +77,175 @@ Partial Class Form1
         '
         'ProductosToolStripMenuItem
         '
+        Me.ProductosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresarActualizarToolStripMenuItem, Me.ActualizarPreciosToolStripMenuItem, Me.ActualizarInventarioToolStripMenuItem, Me.ToolStripSeparator1, Me.SalidaDeProductoToolStripMenuItem})
         Me.ProductosToolStripMenuItem.Name = "ProductosToolStripMenuItem"
         Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
         Me.ProductosToolStripMenuItem.Text = "Productos"
         '
+        'IngresarActualizarToolStripMenuItem
+        '
+        Me.IngresarActualizarToolStripMenuItem.Name = "IngresarActualizarToolStripMenuItem"
+        Me.IngresarActualizarToolStripMenuItem.Size = New System.Drawing.Size(182, 22)
+        Me.IngresarActualizarToolStripMenuItem.Text = "Agregar/Actualizar"
+        '
+        'ActualizarPreciosToolStripMenuItem
+        '
+        Me.ActualizarPreciosToolStripMenuItem.Name = "ActualizarPreciosToolStripMenuItem"
+        Me.ActualizarPreciosToolStripMenuItem.Size = New System.Drawing.Size(182, 22)
+        Me.ActualizarPreciosToolStripMenuItem.Text = "Actualizar Precios"
+        '
+        'ActualizarInventarioToolStripMenuItem
+        '
+        Me.ActualizarInventarioToolStripMenuItem.Name = "ActualizarInventarioToolStripMenuItem"
+        Me.ActualizarInventarioToolStripMenuItem.Size = New System.Drawing.Size(182, 22)
+        Me.ActualizarInventarioToolStripMenuItem.Text = "Actualizar Inventario"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(179, 6)
+        '
+        'SalidaDeProductoToolStripMenuItem
+        '
+        Me.SalidaDeProductoToolStripMenuItem.Name = "SalidaDeProductoToolStripMenuItem"
+        Me.SalidaDeProductoToolStripMenuItem.Size = New System.Drawing.Size(182, 22)
+        Me.SalidaDeProductoToolStripMenuItem.Text = "Salida de producto"
+        '
         'ClientesToolStripMenuItem
         '
+        Me.ClientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarModificarToolStripMenuItem, Me.ConsultaDeComprasToolStripMenuItem, Me.ConsultaDeSaldosToolStripMenuItem, Me.AbonoToolStripMenuItem})
         Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
         Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
         Me.ClientesToolStripMenuItem.Text = "Clientes"
         '
+        'AgregarModificarToolStripMenuItem
+        '
+        Me.AgregarModificarToolStripMenuItem.Name = "AgregarModificarToolStripMenuItem"
+        Me.AgregarModificarToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
+        Me.AgregarModificarToolStripMenuItem.Text = "Agregar/Modificar"
+        '
+        'ConsultaDeComprasToolStripMenuItem
+        '
+        Me.ConsultaDeComprasToolStripMenuItem.Name = "ConsultaDeComprasToolStripMenuItem"
+        Me.ConsultaDeComprasToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
+        Me.ConsultaDeComprasToolStripMenuItem.Text = "Consulta de compras"
+        '
+        'ConsultaDeSaldosToolStripMenuItem
+        '
+        Me.ConsultaDeSaldosToolStripMenuItem.Name = "ConsultaDeSaldosToolStripMenuItem"
+        Me.ConsultaDeSaldosToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
+        Me.ConsultaDeSaldosToolStripMenuItem.Text = "Consulta de saldos"
+        '
+        'AbonoToolStripMenuItem
+        '
+        Me.AbonoToolStripMenuItem.Name = "AbonoToolStripMenuItem"
+        Me.AbonoToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
+        Me.AbonoToolStripMenuItem.Text = "Abono"
+        '
         'ProvedoresToolStripMenuItem
         '
+        Me.ProvedoresToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarModificarToolStripMenuItem1})
         Me.ProvedoresToolStripMenuItem.Name = "ProvedoresToolStripMenuItem"
         Me.ProvedoresToolStripMenuItem.Size = New System.Drawing.Size(78, 20)
         Me.ProvedoresToolStripMenuItem.Text = "Provedores"
         '
+        'AgregarModificarToolStripMenuItem1
+        '
+        Me.AgregarModificarToolStripMenuItem1.Name = "AgregarModificarToolStripMenuItem1"
+        Me.AgregarModificarToolStripMenuItem1.Size = New System.Drawing.Size(172, 22)
+        Me.AgregarModificarToolStripMenuItem1.Text = "Agregar/Modificar"
+        '
         'CajaToolStripMenuItem
         '
+        Me.CajaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaldoActualToolStripMenuItem, Me.IngresarEfectivoToolStripMenuItem, Me.RetirarEfectivoToolStripMenuItem})
         Me.CajaToolStripMenuItem.Name = "CajaToolStripMenuItem"
         Me.CajaToolStripMenuItem.Size = New System.Drawing.Size(42, 20)
         Me.CajaToolStripMenuItem.Text = "Caja"
         '
+        'SaldoActualToolStripMenuItem
+        '
+        Me.SaldoActualToolStripMenuItem.Name = "SaldoActualToolStripMenuItem"
+        Me.SaldoActualToolStripMenuItem.Size = New System.Drawing.Size(161, 22)
+        Me.SaldoActualToolStripMenuItem.Text = "Saldo actual"
+        '
+        'IngresarEfectivoToolStripMenuItem
+        '
+        Me.IngresarEfectivoToolStripMenuItem.Name = "IngresarEfectivoToolStripMenuItem"
+        Me.IngresarEfectivoToolStripMenuItem.Size = New System.Drawing.Size(161, 22)
+        Me.IngresarEfectivoToolStripMenuItem.Text = "Ingresar Efectivo"
+        '
+        'RetirarEfectivoToolStripMenuItem
+        '
+        Me.RetirarEfectivoToolStripMenuItem.Name = "RetirarEfectivoToolStripMenuItem"
+        Me.RetirarEfectivoToolStripMenuItem.Size = New System.Drawing.Size(161, 22)
+        Me.RetirarEfectivoToolStripMenuItem.Text = "Retirar Efectivo"
+        '
         'ReportesToolStripMenuItem
         '
+        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VentasToolStripMenuItem1, Me.ProductosToolStripMenuItem1, Me.ClientesToolStripMenuItem1, Me.ProvedoresToolStripMenuItem1, Me.CajaToolStripMenuItem1})
         Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
         Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
         Me.ReportesToolStripMenuItem.Text = "Reportes"
+        '
+        'VentasToolStripMenuItem1
+        '
+        Me.VentasToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VentasDelDíaToolStripMenuItem, Me.VentasEntreFechasToolStripMenuItem, Me.ToolStripSeparator2, Me.DevolucionesToolStripMenuItem, Me.FacturasToolStripMenuItem})
+        Me.VentasToolStripMenuItem1.Name = "VentasToolStripMenuItem1"
+        Me.VentasToolStripMenuItem1.Size = New System.Drawing.Size(133, 22)
+        Me.VentasToolStripMenuItem1.Text = "Ventas"
+        '
+        'VentasDelDíaToolStripMenuItem
+        '
+        Me.VentasDelDíaToolStripMenuItem.Name = "VentasDelDíaToolStripMenuItem"
+        Me.VentasDelDíaToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.VentasDelDíaToolStripMenuItem.Text = "Ventas del día"
+        '
+        'VentasEntreFechasToolStripMenuItem
+        '
+        Me.VentasEntreFechasToolStripMenuItem.Name = "VentasEntreFechasToolStripMenuItem"
+        Me.VentasEntreFechasToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.VentasEntreFechasToolStripMenuItem.Text = "Ventas entre fechas"
+        '
+        'ToolStripSeparator2
+        '
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(172, 6)
+        '
+        'DevolucionesToolStripMenuItem
+        '
+        Me.DevolucionesToolStripMenuItem.Name = "DevolucionesToolStripMenuItem"
+        Me.DevolucionesToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.DevolucionesToolStripMenuItem.Text = "Devoluciones"
+        '
+        'FacturasToolStripMenuItem
+        '
+        Me.FacturasToolStripMenuItem.Name = "FacturasToolStripMenuItem"
+        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.FacturasToolStripMenuItem.Text = "Facturas"
+        '
+        'ProductosToolStripMenuItem1
+        '
+        Me.ProductosToolStripMenuItem1.Name = "ProductosToolStripMenuItem1"
+        Me.ProductosToolStripMenuItem1.Size = New System.Drawing.Size(133, 22)
+        Me.ProductosToolStripMenuItem1.Text = "Usuarios"
+        '
+        'ClientesToolStripMenuItem1
+        '
+        Me.ClientesToolStripMenuItem1.Name = "ClientesToolStripMenuItem1"
+        Me.ClientesToolStripMenuItem1.Size = New System.Drawing.Size(133, 22)
+        Me.ClientesToolStripMenuItem1.Text = "Clientes"
+        '
+        'ProvedoresToolStripMenuItem1
+        '
+        Me.ProvedoresToolStripMenuItem1.Name = "ProvedoresToolStripMenuItem1"
+        Me.ProvedoresToolStripMenuItem1.Size = New System.Drawing.Size(133, 22)
+        Me.ProvedoresToolStripMenuItem1.Text = "Provedores"
+        '
+        'CajaToolStripMenuItem1
+        '
+        Me.CajaToolStripMenuItem1.Name = "CajaToolStripMenuItem1"
+        Me.CajaToolStripMenuItem1.Size = New System.Drawing.Size(133, 22)
+        Me.CajaToolStripMenuItem1.Text = "Caja"
         '
         'OpcionesToolStripMenuItem
         '
@@ -102,8 +269,7 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.ClientSize = New System.Drawing.Size(784, 461)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -130,5 +296,28 @@ Partial Class Form1
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
     Friend WithEvents OpcionesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btnVentas As DevComponents.DotNetBar.ButtonItem
+    Friend WithEvents IngresarActualizarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ActualizarPreciosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ActualizarInventarioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SalidaDeProductoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AgregarModificarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ConsultaDeComprasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ConsultaDeSaldosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AbonoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AgregarModificarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SaldoActualToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents IngresarEfectivoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RetirarEfectivoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VentasToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ProductosToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ClientesToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ProvedoresToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CajaToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents VentasDelDíaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VentasEntreFechasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents DevolucionesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FacturasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

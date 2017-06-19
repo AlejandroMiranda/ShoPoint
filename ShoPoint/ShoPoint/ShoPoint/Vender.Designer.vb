@@ -39,6 +39,7 @@ Partial Class Vender
         Me.tcTickets = New System.Windows.Forms.TabControl()
         Me.tpTicket_1 = New System.Windows.Forms.TabPage()
         Me.btnNewTicket = New System.Windows.Forms.Button()
+        Me.btnBuy = New System.Windows.Forms.Button()
         lstCod = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         lstDes = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         lstPrice = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -46,6 +47,7 @@ Partial Class Vender
         lstTot = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         lstStock = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.tcTickets.SuspendLayout()
         Me.tpTicket_1.SuspendLayout()
         Me.SuspendLayout()
@@ -158,6 +160,8 @@ Partial Class Vender
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.btnBuy)
+        Me.Panel2.Controls.Add(Me.btnNewTicket)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Panel2.Location = New System.Drawing.Point(0, 383)
         Me.Panel2.Name = "Panel2"
@@ -190,19 +194,28 @@ Partial Class Vender
         'btnNewTicket
         '
         Me.btnNewTicket.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnNewTicket.Location = New System.Drawing.Point(560, 61)
+        Me.btnNewTicket.Location = New System.Drawing.Point(569, 3)
         Me.btnNewTicket.Name = "btnNewTicket"
         Me.btnNewTicket.Size = New System.Drawing.Size(112, 23)
         Me.btnNewTicket.TabIndex = 6
         Me.btnNewTicket.Text = "Nuevo Ticket"
         Me.btnNewTicket.UseVisualStyleBackColor = True
         '
+        'btnBuy
+        '
+        Me.btnBuy.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnBuy.Location = New System.Drawing.Point(488, 3)
+        Me.btnBuy.Name = "btnBuy"
+        Me.btnBuy.Size = New System.Drawing.Size(75, 23)
+        Me.btnBuy.TabIndex = 7
+        Me.btnBuy.Text = "Vender"
+        Me.btnBuy.UseVisualStyleBackColor = True
+        '
         'Vender
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(684, 461)
-        Me.Controls.Add(Me.btnNewTicket)
         Me.Controls.Add(Me.tcTickets)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.btnAdd)
@@ -217,6 +230,7 @@ Partial Class Vender
         Me.Text = "Vender"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
         Me.tcTickets.ResumeLayout(False)
         Me.tpTicket_1.ResumeLayout(False)
         Me.ResumeLayout(False)
@@ -234,4 +248,5 @@ Partial Class Vender
     Friend WithEvents tcTickets As System.Windows.Forms.TabControl
     Friend WithEvents tpTicket_1 As System.Windows.Forms.TabPage
     Friend WithEvents btnNewTicket As System.Windows.Forms.Button
+    Friend WithEvents btnBuy As System.Windows.Forms.Button
 End Class
