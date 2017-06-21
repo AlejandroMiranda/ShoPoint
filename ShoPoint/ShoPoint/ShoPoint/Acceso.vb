@@ -1,5 +1,4 @@
-﻿Imports MySql.Data
-Imports MySql.Data.MySqlClient
+﻿Imports MySql.Data.MySqlClient
 
 Public Class Acceso
 
@@ -9,7 +8,7 @@ Public Class Acceso
         'Configuración inicial del formulario
         chkvPass.Checked = False
         Me.MaximizeBox = False
-        Fill_NickUsers() 'Autorrelleno para el TextBox del nick name de los usuarios
+        Fill_NickUsers() 'Autor relleno para el TextBox del nick name de los usuarios
 
     End Sub
 
@@ -33,7 +32,7 @@ Public Class Acceso
         'El DataTable es para poder ver la información por Filas
         Dim dTable As New DataTable()
         Info.Fill(dTable) 'Relleno del DataAdapter al DataTable
-        'Variable a almacenar la informacion de la BD
+        'Variable a almacenar la información de la BD
         Dim Colection As New AutoCompleteStringCollection()
         'Se revisa las filas del DataTable para leer todo
         For Each rw As DataRow In dTable.Rows
@@ -49,7 +48,7 @@ Public Class Acceso
     Private Sub LogIn_Click(sender As Object, e As EventArgs) Handles btnOK.Click
         If txtPass.Text <> "" And txtUser.Text <> "" Then
             'Sentencia para identificarse
-            Dim SQL As String = "SELECT id FROM users WHERE nick like '" & _
+            Dim SQL As String = "SELECT id FROM users WHERE nick like '" &
                txtUser.Text & "' AND pass like '" & txtPass.Text & "'"
             Dim cmd As New MySqlCommand(SQL, cnx)
 
@@ -58,26 +57,15 @@ Public Class Acceso
             If Lectura.Read Then 'Si hay lectura significa que el nick y pass son correctos
                 Dim id As String = Lectura(0).ToString 'Se recupera el Id del usuario
                 cnx.Close() 'Se cierra la BD para permitir a la siguiente función hacer su procedimiento
-                Get_Info(id) 'Función para obtener la información del usuario registrado
-
-                'Se identifica al usuario registrado
-                Home.lblUserName.Text = UserName
-                MsgBox("Acceso autorizado a: " & UserName, MsgBoxStyle.Information, "Usuario registrado")
+                Home.btnItLog.Tag = id 'Se le agrega a la etiqueta el Id del usuario
+                Me.DialogResult = Windows.Forms.DialogResult.Yes 'Se retorna al formulario el resultado del dialogo como Yes
                 Me.Close() 'Se cierra el formulario de inicio de sesión
             Else 'En caso contrario se especifica que el usuario o contraseña son incorrectos
                 cnx.Close()
                 Lectura.Close()
+                Me.DialogResult = Windows.Forms.DialogResult.No
                 MsgBox("Usuario o contraseña incorrecto", MsgBoxStyle.Exclamation, "Error de inicio de sesión")
             End If
-        End If
-    End Sub
-
-    Private Sub Me_Closed(sender As Object, e As EventArgs) Handles Me.FormClosed
-        'En caso que se registre un usuario se retorna el resultado por DialogResult
-        If UserID.Equals("") Then
-            Me.DialogResult = Windows.Forms.DialogResult.No
-        Else
-            Me.DialogResult = Windows.Forms.DialogResult.Yes
         End If
     End Sub
 
