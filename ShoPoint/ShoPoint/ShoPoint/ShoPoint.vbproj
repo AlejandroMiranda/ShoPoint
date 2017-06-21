@@ -149,7 +149,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="LogUser.vb" />
+    <Compile Include="User.vb" />
     <Compile Include="Vender.Designer.vb">
       <DependentUpon>Vender.vb</DependentUpon>
     </Compile>
