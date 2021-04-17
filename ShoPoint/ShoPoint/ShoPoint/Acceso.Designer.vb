@@ -36,7 +36,7 @@ Partial Class Acceso
         Me.btnOK.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnOK.Name = "btnOK"
         Me.btnOK.Size = New System.Drawing.Size(87, 28)
-        Me.btnOK.TabIndex = 2
+        Me.btnOK.TabIndex = 3
         Me.btnOK.Text = "Ingresar"
         Me.btnOK.UseVisualStyleBackColor = True
         '
@@ -47,7 +47,7 @@ Partial Class Acceso
         Me.chkvPass.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.chkvPass.Name = "chkvPass"
         Me.chkvPass.Size = New System.Drawing.Size(139, 20)
-        Me.chkvPass.TabIndex = 2
+        Me.chkvPass.TabIndex = 4
         Me.chkvPass.Text = "Mostrar contraseña"
         Me.chkvPass.UseVisualStyleBackColor = True
         '
@@ -66,7 +66,7 @@ Partial Class Acceso
         Me.txtUser.Name = "txtUser"
         Me.txtUser.PlaceholderText = "Usuario"
         Me.txtUser.Size = New System.Drawing.Size(232, 22)
-        Me.txtUser.TabIndex = 4
+        Me.txtUser.TabIndex = 1
         '
         'txtPass
         '
@@ -75,7 +75,7 @@ Partial Class Acceso
         Me.txtPass.Name = "txtPass"
         Me.txtPass.PlaceholderText = "Contraseña"
         Me.txtPass.Size = New System.Drawing.Size(232, 22)
-        Me.txtPass.TabIndex = 5
+        Me.txtPass.TabIndex = 2
         '
         'Acceso
         '

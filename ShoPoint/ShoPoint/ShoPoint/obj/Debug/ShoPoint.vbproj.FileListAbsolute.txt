@@ -1,30 +1,42 @@
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\bin\Debug\ShoPoint.exe.config
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\bin\Debug\ShoPoint.exe
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\bin\Debug\ShoPoint.pdb
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\bin\Debug\ShoPoint.xml
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\bin\Debug\System.Data.SQLite.dll
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\bin\Debug\System.Data.SQLite.pdb
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\obj\Debug\ShoPoint.Form1.resources
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\obj\Debug\ShoPoint.Resources.resources
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\obj\Debug\ShoPoint.vbproj.GenerateResource.Cache
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\obj\Debug\ShoPoint.exe
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\obj\Debug\ShoPoint.xml
-C:\Users\Miranda\AppData\Local\Temporary Projects\ShoPoint\obj\Debug\ShoPoint.pdb
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.exe.config
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.exe
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.xml
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.pdb
-D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Form1.resources
-D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Resources.resources
-D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.vbproj.GenerateResource.Cache
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.exe
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.pdb
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.xml
-D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\System.Data.SQLite.dll
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\System.Data.SQLite.pdb
-D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Vender.resources
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.vbprojResolveAssemblyReference.cache
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Acceso.resources
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Articulos.resources
 D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Buscar.resources
-D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Acceso.resources
-D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\Placeholder.dll
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Form1.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Home.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Resources.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Vender.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.vbproj.GenerateResource.Cache
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.vbproj.ResolveComReference.cache
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.LogTempUser.resources
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\MySql.Data.dll
+D:\Programas a desarrollar\ShoPoint\ShoPoint\ShoPoint\bin\Debug\MySql.Data.xml
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.exe.config
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.exe
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.pdb
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\bin\Debug\ShoPoint.xml
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\bin\Debug\MySql.Data.dll
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\bin\Debug\MySql.Data.xml
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\bin\Debug\System.Data.SQLite.pdb
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.vbprojResolveAssemblyReference.cache
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.vbproj.ResolveComReference.cache
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Acceso.resources
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Articulos.resources
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Buscar.resources
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Form1.resources
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Home.resources
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.LogTempUser.resources
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Resources.resources
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.Vender.resources
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.vbproj.GenerateResource.Cache
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.exe
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.xml
+C:\Users\Miranda\Source\Repos\ShoPoint\ShoPoint\ShoPoint\ShoPoint\obj\Debug\ShoPoint.pdb

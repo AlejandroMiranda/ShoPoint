@@ -65,6 +65,18 @@ Namespace My
                 Me("dbCreate") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("server=127.0.0.1;User Id=root;database=shopoint_db")>  _
+        Public Property ConectionString() As String
+            Get
+                Return CType(Me("ConectionString"),String)
+            End Get
+            Set
+                Me("ConectionString") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

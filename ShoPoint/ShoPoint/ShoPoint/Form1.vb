@@ -5,6 +5,7 @@ Public Class Form1
 
     Private Sub Form1Load(sender As Object, e As EventArgs) Handles Me.Load
         Dim cnx As New MySqlConnection("server=127.0.0.1;User Id=root;")
+
         Try
             cnx.Open()
             cnx.Close()
@@ -19,7 +20,6 @@ Public Class Form1
     End Sub
 
     Private Sub OpcionesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OpcionesToolStripMenuItem.Click
-        Acceso.MdiParent = Me
-        Acceso.Show()
+        Home.Show()
     End Sub
 End Class

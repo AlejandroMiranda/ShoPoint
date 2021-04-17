@@ -3,6 +3,7 @@
     Dim LoadComplete As Boolean
     Dim cTickets As Integer
     Dim listVenta As New List(Of ListView)
+    Dim countP As Integer
 
     Private Sub FormLoad(sender As Object, e As EventArgs) Handles Me.Load
         'Configuración inicial del formulario
@@ -11,6 +12,7 @@
         LoadComplete = True
 
         cTickets = 1
+        countP = 0
     End Sub
 
     Private Sub listBuy_ChangeWithColum(sender As Object, e As EventArgs) Handles listBuy_1.ColumnWidthChanged
@@ -78,7 +80,39 @@
         End If
     End Sub
 
+    Private Sub TicketDelte()
+        Dim listAct As ListView = listVenta(tcTickets.SelectedIndex)
+        Dim indexListAct As Integer
+        Dim countLists As Integer = listVenta.Count - 1
+        If countLists > 1 Then
+            Dim tpDelete As TabPage = tcTickets.TabPages(countLists)
+            For indexListAct = tcTickets.SelectedIndex To countLists - 1
+                listAct.Items.Clear()
+                For Each itList As ListViewItem In listVenta(indexListAct + 1).Items
+                    listAct.Items.Add(itList.Clone)
+                Next
+                listAct = listVenta(indexListAct + 1)
+            Next
+            listVenta.Remove(listAct)
+            tcTickets.TabPages.Remove(tpDelete)
+            cTickets -= 1
+        End If
+    End Sub
+
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
-        
+        Dim lisAct As ListView = listVenta(tcTickets.SelectedIndex)
+        Dim pList As Integer = lisAct.Items.Count
+        countP += 1
+        lisAct.Items.Add("Prueba " & countP)
+        lisAct.Items(pList).SubItems.Add("Descripcion " & countP)
+        lisAct.Items(pList).SubItems.Add("Precio " & countP)
+        lisAct.Items(pList).SubItems.Add("Cantidad " & countP)
+        lisAct.Items(pList).SubItems.Add("Total " & countP)
+        lisAct.Items(pList).SubItems.Add("Stock " & countP)
+
+    End Sub
+
+    Private Sub btnBuy_Click(sender As Object, e As EventArgs) Handles btnBuy.Click
+
     End Sub
 End Class
